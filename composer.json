@@ -19,7 +19,7 @@
         "symfony/symfony": "~2.8"
     },
     "autoload": {
-        "psr-0": { "Unifik\\DatabaseConfigBundle": "" }
+        "psr-0": { "beterthanlife\\DatabaseConfigBundle": "" }
     },
-    "target-dir": "Unifik/DatabaseConfigBundle"
+    "target-dir": "beterthanlife/DatabaseConfigBundle"
 }
