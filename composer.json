@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "^3.3"
+        "symfony/framework-bundle": "^3.3",
+        "symfony/proxy-manager-bridge": "^3.3"
     },
     "autoload": {
         "psr-0": { "Unifik\\DatabaseConfigBundle": "" }
