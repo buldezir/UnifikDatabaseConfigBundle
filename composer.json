@@ -1,9 +1,9 @@
 {
-    "name": "beterthanlife/database-config-bundle",
+    "name": "buldezir/database-config-bundle",
     "type": "symfony-bundle",
     "description": "Allows management of Symfony's container configuration from the database",
     "keywords": ["unifik", "symfony", "database", "container", "config"],
-    "homepage": "https://github.com/beterthanlife/UnifikDatabaseConfigBundle",
+    "homepage": "https://github.com/buldezir/UnifikDatabaseConfigBundle",
     "license": "MIT",
     "authors": [
         {
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": "~2.8|3.*"
+        "symfony/framework-bundle": "^3.3"
     },
     "autoload": {
         "psr-0": { "Unifik\\DatabaseConfigBundle": "" }
