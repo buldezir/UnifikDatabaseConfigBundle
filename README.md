@@ -18,8 +18,14 @@ Configurations are all cached using Symfony's container caching mechanism and do
 
 1. Add this to your composer.json :
 ```js
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/buldezir/UnifikDatabaseConfigBundle"
+        }
+    ],
     "require": {
-        "unifik/database-config-bundle": "dev-master"
+        "buldezir/database-config-bundle": "dev-master"
     }
 ```
 
